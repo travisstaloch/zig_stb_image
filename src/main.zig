@@ -1,7 +1,7 @@
 const std = @import("std");
 
 const math = @cImport({
-    @cInclude("main.c");
+    @cInclude("stb_image.h");
 });
 
 pub fn main() !void {
